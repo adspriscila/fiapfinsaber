@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/home.css");
+@import url("styles/login.css");
+
+:root{
+    --cor-de-fundo:rgb(0, 5, 7);
+    --azul:#0c6470;
+    --preto:#000000
+    --2azul-escuro:#011f2d;
+    --fonte-principal:"inter";
+}
+
+bady{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
