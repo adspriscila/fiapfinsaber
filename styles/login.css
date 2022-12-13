@@ -1,0 +1,46 @@
+.body{
+    color: var(--2azul-escuro);
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size:16px;
+    font-weight: 700;
+}
+.tela__login{
+  background:var(--azul);
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px;
+  border-radius: 20%;
+  font-family: var(--fonte-principal);
+  text-transform: uppercase;
+  font-size:16px;
+  font-weight: 700;
+  }
+
+input{
+    padding: 15px;
+    border:none;
+    outline: none; 
+}
+.botão__entrar{
+    background-color: rgb(36, 38, 182);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10%;
+    color:white;
+    font-size: 10px; 
+    cursor: pointer;
+    text-decoration: none;   
+}
+
+.botão__ancora{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 7px;    
+}

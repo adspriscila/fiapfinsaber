@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaberFin</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head> 
+
+<body>
+  
+    <header class="cabeçalho">
+         <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho_menu-hamburguer container_imagens"></span>
+                <img src="img/Menu- hamburguer.svg" alt="menu">
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">Dashboard</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">Contas</a>
+                </li>   
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">+ Novas Contas</a>
+                </li>  
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">Adicionar Receitas</a>
+                </li> 
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">Adicionar Despesas</a>
+                </li>       
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">Transações</a>
+                </li>  
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">Cartões de Crédito</a>
+                </li>   
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">Planejamento</a>
+                </li>   
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">Relatório</a>
+                </li>  
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">... Mais Opções</a>
+                </li>   
+                <li class="lista-menu__item">
+                    <a href="#" class="liste-menu__link">Configurações</a>
+                </li>  
+                <li class="lista-menu__item">
+                    <a href="login.html" class="liste-menu__link">Sair</a>
+                </li>          
+            </ul>
+            <div class="container">
+                <div class="container__logo">
+                    <h2>SaberFim</h2>
+                </div>             
+            </div>   
+        </div>
+        <div class="container">   
+            <a href="#"><img src="img/notificacao.svg"alt="notificações" class="container__not"></a>
+            <a href="#"><img src="img/ususario.1.svg"alt="Usuário" class="container__imagens"></a>
+         </div> 
+    </header>
+    <!--FIM HEADER-->
+    <section class="home">
+        <h2 class="home__titulo">Dashboard</h2>
+        <div class="box__info">
+            <div class="box__info__single">
+                <div class="info__text">
+                    <h3>Saldo Atual</h3>
+                     <p>R$2.935,85 <img src="img/banco.2.svg" alt= "icone banco"></p>
+                </div>
+                <div class="info__text">
+                    <h3>Receitas</h3>
+                    <p>R$3.306,89 <img src="img/seta.cima.svg" alt= "icone banco"></p>
+                </div>
+                <div class="info__text">
+                    <h3>Despesas</h3>
+                    <p>R$6.784,91 <img src="img/seta.baixo.svg" alt= "icone banco"></p>
+                </div>
+                <div class="info__text">
+                    <h3>Cartão de crédito</h3>
+                    <br>R$4.078,35 <img src="img/cartao de credito.svg" alt= "icone banco"></p>
+                </div>
+            </div>
+        </div>    
+                       
+        <div>
+            <div class="card">
+                <div class="card__descrição">
+                    <div class="descrição">
+                            <h3 class="descrição__titulo">Despesas por categoria</h3>
+                            <img src="img/Despesas por categoria.svg" class="descrição__imagem" alt="Grafico da despesas">
+                    </div>
+                    <div>                    
+                        <h3 class="descrição__titulo">Receita por categoria</h3>
+                        <img src="img/Receita por categoria.svg " class="descrição__imagem" alt="Grafico da receitas">
+                    </div>
+                    <div>
+                        <h3 class="descrição__titulo">Balanço mensal</h3>
+                        <img src="img/Balanco mensal.svg " class="descrição__imagem" alt="Grafico da balanço mensal">
+                    </div>
+                    <div>
+                        <h3 class="descrição__titulo">Cartões de crédito</h3>
+                        <img src="img/Cartoes de credito.svg " class="descrição__imagem" alt="demonstrações de faturas em aberto">
+                    </div>
+                        
+                    </div>                                   
+                </div>
+            </div>                
+        </div>    
+</section>  
+</body>
+</html>
